@@ -1,4 +1,4 @@
-const isVowel = (a) => ["a", "e", "i", "o", "u"].includes(a);
+const isVowel = (a) => ["a", "e", "i", "o", "u"].includes(a.toLowerCase());
 
 /**
  * @param {string} s
