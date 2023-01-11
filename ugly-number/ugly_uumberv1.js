@@ -13,7 +13,6 @@ const nthUglyNumber = function (n, a, b, c) {
     }
     ++curr;
   }
-  // console.log(result);
   return result[n - 1];
 };
 
